@@ -5,6 +5,8 @@ import 'package:flutter_componentes/pages/avatars_page.dart';
 import 'package:flutter_componentes/pages/card_page.dart';
 import 'package:flutter_componentes/pages/home_page.dart';
 import 'package:flutter_componentes/pages/input_cajas_page.dart';
+import 'package:flutter_componentes/pages/listview_page.dart';
+import 'package:flutter_componentes/pages/slider_page.dart';
 
 Map<String, WidgetBuilder> getRoutes() {
   return <String, WidgetBuilder>{
@@ -14,5 +16,7 @@ Map<String, WidgetBuilder> getRoutes() {
       "card":(BuildContext context)=>CardPage(),
     "animatedContainer":(BuildContext context)=>AnimacionContainer(),
     "inputs":(BuildContext context)=>InputCajasPage(),
+        "slider":(BuildContext context)=>SliderpageSatate(),
+            "list":(BuildContext context)=>ListViewPage(),
   };
 }

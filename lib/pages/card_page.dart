@@ -79,7 +79,7 @@ class CardPage extends StatelessWidget {
                   children: [
                  FadeInImage(
                     image: NetworkImage(
-                            'https://image.freepik.com/vector-gratis/fondo-diseno-plano-dia-nacional-abuelos_23-2148618481.jpg',
+                            'https://picsum.photos/id/1004/367/267',
                              ),
                               placeholder: AssetImage('assets/jar-loading.gif'),
                               fadeInDuration: Duration(milliseconds: 300),
